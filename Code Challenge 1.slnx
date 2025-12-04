@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MiniBank.Domain/MiniBank.Domain.csproj" />
+  <Project Path="MiniBank/MiniBank.WebAPI.csproj" />
+</Solution>
