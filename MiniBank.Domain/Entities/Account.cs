@@ -8,5 +8,10 @@ namespace MiniBank.Domain.Entities
         
         [Required]
         public string CustomerName { get; set; } = null!;
+
+        [Required]
+        public string NationalId { get; set; } = null!; // unique
+
+        public decimal Balance { get; set; }
     }
 }
